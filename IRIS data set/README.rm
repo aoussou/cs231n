@@ -1,5 +1,5 @@
-The code is a simplified version of the cs231n framework (assignment 2, 2017 version) which you can find here: 
-http://cs231n.github.io/assignments2017/assignment2/
+The code is a simplified version of the cs231n framework (assignment 2, 2017 version) which you can find [here](http://cs231n.github.io/assignments2017/assignment2/).
+
 The framework mostly contains files with empty functions that need to be completed, as well as a number of iPython notebooks. For the purpose of this project, irrelevant files and functions were deleted. In particular, the iPython notebooks were replaced by one Python driver file.
 The svm_loss and softmax_loss function were already provided, however those who took the course already coded those functions by themselves in assignment 1.
 
