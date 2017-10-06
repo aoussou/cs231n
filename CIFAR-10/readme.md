@@ -2,7 +2,7 @@ Inplementation of the same model with different Deep Learning frameworks, namely
 
 <b>Model used</b>:
 
-<b>[conv-relu-batchnorm-MaxPool]</b> x n -> <b>[affine-relu-dropout]</b> -> <b>[affine]</b> -> <b>[softmax]</b>
+<b>[conv-ReLU-BatchNorm-MaxPool]</b> x n -> <b>[affine-ReLU-dropout]</b> -> <b>[affine]</b> -> <b>[softmax]</b>
 
 I find that n = 3 provides the best results.
 
