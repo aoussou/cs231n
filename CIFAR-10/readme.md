@@ -6,4 +6,6 @@ Model used:
 
 I find that n = 3 provides the best results.
 
-MAKE SURE you have the data_utils.py file as well as the data folder in the same folder where you run the model files. You can download the data [here](http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz).
+MAKE SURE you have the data_utils.py file as well as the data folder in the same folder where you run the model files. You can download the data [here](http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz). Or run the get_datasets.sh file in your folder.
+
+
