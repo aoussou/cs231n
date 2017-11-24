@@ -42,6 +42,8 @@ class ThreeLayerConvNet(object):
         # 
         
         C, H, W = input_dim
+
+        ############################################################################
         self.params['W1'] = weight_scale*np.random.randn(num_filters,C,filter_size,filter_size)
         D = int(H*W*num_filters/4)
         self.params['W2'] = weight_scale*np.random.randn(D,hidden_dim)        
@@ -49,19 +51,6 @@ class ThreeLayerConvNet(object):
         self.params['b1'] = np.zeros(num_filters)
         self.params['b2'] = np.zeros(hidden_dim)
         self.params['b3'] = np.zeros(num_classes)
-        ############################################################################
-        # TODO: Initialize weights and biases for the three-layer convolutional    #
-        # network. Weights should be initialized from a Gaussian with standard     #
-        # deviation equal to weight_scale; biases should be initialized to zero.   #
-        # All weights and biases should be stored in the dictionary self.params.   #
-        # Store weights and biases for the convolutional layer using the keys 'W1' #
-        # and 'b1'; use keys 'W2' and 'b2' for the weights and biases of the       #
-        # hidden affine layer, and keys 'W3' and 'b3' for the weights and biases   #
-        # of the output affine layer.                                              #
-        ############################################################################
-        pass
-        ############################################################################
-        #                             END OF YOUR CODE                             #
         ############################################################################
 
         for k, v in self.params.items():
